@@ -1,0 +1,69 @@
+.Contact_Us {
+    width: 100%;
+    height: 200px;
+    background-color: var(--Soft_Blue);
+    padding: 40px 0px;
+    margin-top: 30px;
+}
+
+.Contact_Us p {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.Contact_Us h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact_us_area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.input input {
+    height: 40px;
+    width: 200px;
+    padding: 0px 10px;
+    border: 0px;
+}
+
+.input img {
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    padding: 0px 2px;
+    display: none;
+}
+
+.input input:focus {
+outline: none;
+}
+
+.contacy_us_btn {
+    color: white;
+    background-color: var(--Soft_Red);
+    border-radius: 5px;
+    border: 1px solid var(--Soft_Red);
+    cursor: pointer;
+    padding: 0px 20px;
+    transition: 200ms ease-in;
+}
+
+.contacy_us_btn:hover {
+    color: var(--Soft_Red);
+    background-color: white;
+    transition: 200ms ease-in;
+    border: 1px solid var(--Soft_Red);
+}

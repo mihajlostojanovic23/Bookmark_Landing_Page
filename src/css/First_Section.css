@@ -1,0 +1,90 @@
+.first_section {
+    margin-top: 50px;
+    width: 100%;
+    height: 370px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.right_background {
+position: absolute;
+right: 0;
+bottom: 0;
+width: 400px;
+height: 280px;
+background-color:var(--Soft_Blue);
+border-bottom-left-radius: 140px;
+border-top-left-radius: 140px;
+}
+
+.about_details {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+    position: relative;
+}
+
+.main_img img {
+    width: 500px;
+    height: auto;
+}
+
+
+
+.main_text {
+    width: 485px; 
+    margin-left: 120px;
+}
+
+
+
+
+
+.main_text h1 {
+    letter-spacing: 1px;
+}
+
+
+
+.btn_chrome {
+    border: 0px solid var(--Soft_Blue);
+    height: 40px;
+    width: 160px;
+    color: white;
+    background-color: var(--Soft_Blue);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 200ms ease-in;
+    -webkit-box-shadow: 0px 8px 20px 1px rgba(0,0,0,0.56); 
+    box-shadow: 0px 8px 20px 1px rgba(0,0,0,0.56);
+}
+
+.btn_chrome:hover {
+    background-color:hsl(0, 0%, 100%);
+    border: 1px solid var(--Soft_Blue);
+    transition: 200ms ease-in;
+    color: var(--Soft_Blue);
+}
+
+.btn_firefox {
+    width: 160px;
+    height: 40px;
+    border: 0px solid var(--Soft_Blue);
+    border-radius: 5px;
+    margin: 0px 20px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 8px 20px 1px rgba(0,0,0,0.56); 
+    box-shadow: 0px 8px 20px 1px rgba(0,0,0,0.56);
+    background-color: white;
+    transition: 200ms ease-in;
+}
+
+.btn_firefox:hover {
+    background-color: rgb(255, 255, 255);
+    
+    border: 1px solid var(--Soft_Blue);
+    transition: 200ms ease;
+}
